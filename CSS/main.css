@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container
+{
+	width: 1280px;
+	height: 6932px;
+	background-color: black;
+	margin: 0 auto;
+}
+.header
+{
+	width: 1280px;
+	height: 80px;
+}
+.logo
+{
+	width: 235px;
+	height: 80px;
+	float: left;
+}
+.menu
+
+{
+	width: 780px;
+	height: 80px;
+	float: left;
+}
+
+
+.timkiem
+{
+	width: 250px;
+	height: 80px;
+   float: right;
+}
+
+
+.khung1
+{
+	width: 1280px;
+	height: 835px;
+	background-color: aliceblue;
+	
+}
+.khung2
+{
+	width: 1280px;
+	height: 685px;
+	background-color: aquamarine;
+}
+.hinhkhung2
+{
+	width: 560px;
+	height: 685px;
+	background-color: bisque;
+	float: left;
+}
+.aboutme
+{
+	width: 718px;
+	height: 685px;
+	background-color: aqua;
+	float: right;
+}
+.resume
+{
+	width: 1280px;
+	height: 182px;
+	background-color: blue;
+}
+.khung3
+{
+	width: 1280px;
+	height: 1052px;
+	background-color: blueviolet;
+}
+.hinhkhung3
+{
+	width: 548px;
+	height: 313px;
+	background-color: brown;
+	float: left;
+	margin-left: 60px;
+	margin-top: 27px;
+}
+.khung4
+{
+	width: 1280px;
+	height: 130px;
+	background-color:yellow;
+}
+.downloadkhung4
+{
+	width: 20%;
+	height: 130px;
+	background-color: white;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+.khung5
+{
+	width: 1280px;
+	height: 230px;
+	background-color: violet;
+	margin-top: 200px;
+}
+.khung6
+{
+	width: 1280px;
+	height: 506px;
+}
+.hinhkhung6
+{
+	width: 355px;
+	height: 237px;
+	background-color: yellow;
+	float: left;
+	margin-left: 53px;
+	margin-top: 12px;
+	transition: width 2s;
+	margin-top: 20px;
+}
+.khungskill
+{
+	width: 1280px;
+	height: 200px;
+	margin-top: 30px;
+	background-color: blue;
+}
+.skill
+{
+	width: 1280px;
+	height: 268px;
+	background-color: aliceblue;
+	margin-top: 15px;
+}
+.project
+{
+	width: 1280px;
+	height: 194px;
+	background-color: aqua;
+	margin-top: 35px;
+}
+.hinh
+{
+	width: 1280px;
+	height: 969px;
+	background-color: beige;
+	margin-top: 15px;
+}
+.contact
+{
+	width: 1280px;
+	height: 185px;
+	background-color: brown;
+	margin-top: 25px;
+}
+.khung7
+{
+	width: 1280px;
+	height: 611px;
+	background-color:beige;
+	margin-top: 30px;
+}
+.hinhkhung7
+{
+	width: 524px;
+	height: 611px;
+	background-color: aqua;
+	float: left;
+	margin-left: 80px;
+}
+.hinhkhung7_2
+{
+	width: 564px;
+	height: 564px;
+	background-color: aliceblue;
+	margin-top: 22px;
+	float:left;
+}
+
+
+
+
+nav ul
+{
+	list-style: none;
+	padding-top: 15px;
+	text-align: center;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+nav ul li
+{
+ 	float: left;
+	position: relative;
+	text-align: center;
+}
+
+nav ul li ul
+{
+	position: absolute;
+	left: -40px;
+	visibility: hidden;
+
+}
+nav ul li:hover
+{
+	text-align: center;
+	background-color:#0E0E0E;
+	height: 50px;
+	margin-top: 50px;
+}
+
+/*Slider*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin-left: 1%;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+	color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+	margin-left: 50%;
+	margin-top: 62%;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+.top-w3layouts p a:hover,
+.w3l-footer ul li a:hover {
+    opacity: .7;
+}
+
+.search-w3layouts input[type="search"] {
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 13px;
+    border: none;
+    letter-spacing: 1px;
+    background: white;
+}
+
+.search-w3layouts button {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 14px;
+    padding: 9px 15px;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}

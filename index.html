@@ -1,0 +1,223 @@
+<!doctype html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+	<link href="CSS/main.css" rel="stylesheet">
+	<script>document.getElementsByTagName("html")[0].className += " js";</script>
+	<link href="CSS/lightbox.min.css" rel="stylesheet">
+<body>
+<div class="container">
+
+	
+	
+	
+	
+		
+		<div class="header">
+			<div class="logo">
+				<a href="#"><img src="IMAGE/logo.png" style="margin-left: 65px"></a>
+			</div>
+			<div class="menu">
+				<nav>
+				<ul>
+				
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Áo</a>
+					
+						<ul>
+						
+							<li><a href="#">Jean</a></li>
+							<li><a href="#">Kaki</a></li>
+							<li><a href="#">Len</a></li>
+							<li><a href="#">Thun</a></li>
+							
+						</ul>
+						
+					</li>
+					<li><a href="#">Quần</a></li>
+					<li><a href="#">Giày</a></li>
+					<li><a href="#">Phụ kiện</a></li>
+					<li><a href="#">Thông tin</a></li>
+					<li><a href="#">Liên hệ</a></li>
+					
+				</ul>
+				</nav>
+			</div>
+			
+			
+			<div class="timkiem">
+			
+			
+			
+				<div class="col-6 top-w3layouts">
+								<!-- search -->
+								<div class="search-w3layouts" style="margin-top: 23px">
+									<form action="#" method="post" class="search-bottom-wthree d-flex my-md-0 my-2">
+										<input class="search col" type="search" placeholder="Tìm Kiếm"
+											required="">
+									</form>
+								</div>
+								<!-- //search -->
+							</div>
+			
+			
+			</div>
+		</div>
+		
+		<div class="khung1">
+	
+	
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="IMAGE/khung1_1.png">
+  <div class="text">Ảnh kế tiếp</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IMAGE/khung1_2.png">
+  <div class="text">Ảnh kế tiếp</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="IMAGE/khung1_3.png">
+  <div class="text">Ảnh kế tiếp</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+			<br>
+
+			
+		</div>		
+	
+	
+	
+
+		
+		<div class="khung2">
+			<div class="hinhkhung2"></div>
+			<div class="aboutme"></div>
+		</div>
+		
+		<div class="resume"></div>
+		
+	  <div class="khung3">
+			<div class="hinhkhung3"></div>
+			<div class="hinhkhung3"></div>
+			<div class="hinhkhung3"></div>
+			<div class="hinhkhung3"></div>
+			<div class="hinhkhung3"></div>
+			<div class="hinhkhung3"></div>
+		</div>
+	
+	<div class="khung4">
+		<div class="downloadkhung4"></div>
+	</div>
+	
+	<div class="khung5"></div>
+	
+	<div class="khung6">
+		<div class="hinhkhung6">
+		
+			<a class="example-image-link" href="IMAGE/giay1.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay1.gif" alt="" /></a>
+			
+		</div>
+		<div class="hinhkhung6">
+			
+		<a class="example-image-link" href="IMAGE/giay2.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay2.gif" alt="" /></a>
+			
+		</div>
+		<div class="hinhkhung6">
+		
+		<a class="example-image-link" href="IMAGE/giay3.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay3.gif" alt="" /></a>
+		
+		</div>
+		<div class="hinhkhung6">
+		
+		<a class="example-image-link" href="IMAGE/giay4.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay4.gif" alt="" /></a>
+			
+		</div>
+		<div class="hinhkhung6">
+		
+		<a class="example-image-link" href="IMAGE/giay5.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay5.gif" alt="" /></a>
+		
+		</div>
+		<div class="hinhkhung6">
+		
+		<a class="example-image-link" href="IMAGE/giay6.gif" data-lightbox="example-set"><img class="example-image" src="IMAGE/giay6.gif" alt="" /></a>
+		
+		</div>
+	</div>
+	
+	<div class="khungskill"></div>
+	
+	<div class="skill"></div>
+	
+	<div class="project"></div>
+	
+	<div class="hinh"></div>
+	
+	<div class="contact"></div>
+	
+	<div class="khung7">
+		<div class="hinhkhung7"></div>
+		<div class="hinhkhung7_2"></div>
+	</div>
+	
+	<script src="JS/lightbox-plus-jquery.min.js"></script>
+
+
+
+
+
+
+
+
+</div>
+	
+	
+	
+	
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script src="JS/lightbox-plus-jquery.min.js"></script>
+	
+	
+	
+</body>
+</html>
